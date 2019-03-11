@@ -1,0 +1,90 @@
+Script started on Monday 11 March 2019 05:04:56 PM IST
+]0;guest-lndkag@CC2-29: ~[01;32mguest-lndkag@CC2-29[00m:[01;34m~[00m$ sftp cs17d03@193[K2.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d03@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> put hello.txt
+Uploading hello.txt to /home/cs17d03/hello.txt
+hello.txt                                       0%    0     0.0KB/s   --:-- ETAhello.txt                                     100%   13     0.0KB/s   00:00    
+sftp> cd
+You must specify a path after a cd command.
+sftp> cd Desktop
+Couldn't stat remote file: No such file or directory
+sftp> ls
+examples.desktop    hello.txt           
+sftp> lcd Desktop
+sftp> get result.tt[Kxt
+File "/home/cs17d03/result.txt" not found.
+sftp> get result.txt.txt[K.txt[K.txt[K.txt[K.txt[K.txt[Kh.txte.txtl.txtl.txto.txt
+Fetching /home/cs17d03/hello.txt to hello.txt
+/home/cs17d03/hello.txt                         0%    0     0.0KB/s   --:-- ETA/home/cs17d03/hello.txt                       100%   13     0.0KB/s   00:00    
+sftp> mkdir new
+sftp> ls
+examples.desktop    hello.txt           new                 
+sftp> cd new
+sftp> get hello.txt
+File "/home/cs17d03/new/hello.txt" not found.
+sftp> cd[K[Kls
+sftp> cd..
+Invalid command.
+sftp> cd cs17d03
+Couldn't stat remote file: No such file or directory
+sftp> cd
+You must specify a path after a cd command.
+sftp> ls
+sftp> cd..
+Invalid command.
+sftp> ls
+sftp> lls
+hello.txt
+sftp> cat hello.txt
+Invalid command.
+sftp> rm new
+Removing /home/cs17d03/new/new
+Couldn't delete file: No such file or directory
+sftp> ls
+sftp> cd new
+Couldn't stat remote file: No such file or directory
+sftp> help
+Available commands:
+bye                                Quit sftp
+cd path                            Change remote directory to 'path'
+chgrp grp path                     Change group of file 'path' to 'grp'
+chmod mode path                    Change permissions of file 'path' to 'mode'
+chown own path                     Change owner of file 'path' to 'own'
+df [-hi] [path]                    Display statistics for current directory or
+                                   filesystem containing 'path'
+exit                               Quit sftp
+get [-afPpRr] remote [local]       Download file
+reget [-fPpRr] remote [local]      Resume download file
+reput [-fPpRr] [local] remote      Resume upload file
+help                               Display this help text
+lcd path                           Change local directory to 'path'
+lls [ls-options [path]]            Display local directory listing
+lmkdir path                        Create local directory
+ln [-s] oldpath newpath            Link remote file (-s for symlink)
+lpwd                               Print local working directory
+ls [-1afhlnrSt] [path]             Display remote directory listing
+lumask umask                       Set local umask to 'umask'
+mkdir path                         Create remote directory
+progress                           Toggle display of progress meter
+put [-afPpRr] local [remote]       Upload file
+pwd                                Display remote working directory
+quit                               Quit sftp
+rename oldpath newpath             Rename remote file
+rm path                            Delete remote file
+rmdir path                         Remove remote directory
+symlink oldpath newpath            Symlink remote file
+version                            Show SFTP version
+!command                           Execute 'command' in local shell
+!                                  Escape to local shell
+?                                  Synonym for help
+sftp> exit
+]0;guest-lndkag@CC2-29: ~[01;32mguest-lndkag@CC2-29[00m:[01;34m~[00m$ exit
+exit
+
+Script done on Monday 11 March 2019 05:14:42 PM IST
