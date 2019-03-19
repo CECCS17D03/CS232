@@ -1,0 +1,75 @@
+Script started on Monday 18 March 2019 11:48:54 PM IST
+]0;cec@cec-H110M-S2: ~/Desktop[01;32mcec@cec-H110M-S2[00m:[01;34m~/Desktop[00m$ ping 192.168.0.90[3Psudo ifconfig enp1s0 192.168.0.99 netmask 255.255.2555.0[A]0;cec@cec-H110M-S2: ~/Desktop[01;32mcec@cec-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[sudo] password for cec: 
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:5358 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:5358 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:372048 (372.0 KB)  TX bytes:372048 (372.0 KB)
+
+]0;cec@cec-H110M-S2: ~/Desktop[01;32mcec@cec-H110M-S2[00m:[01;34m~/Desktop[00m$ sudo ifconfig ping 192.168.0.90[3Psudo ifconfig enp1s0 192.168.0.99 netmask 255.255.2555.0[A]0;cec@cec-H110M-S2: ~/Desktop[01;32mcec@cec-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kdo ifconfig enp1s0 192.168.0.99 netmask 255.255.2555.0
+]0;cec@cec-H110M-S2: ~/Desktop[01;32mcec@cec-H110M-S2[00m:[01;34m~/Desktop[00m$ sudo ifconfig enp1s0 192.168.0.99 netmask 255.255.2555.0[A]0;cec@cec-H110M-S2: ~/Desktop[01;32mcec@cec-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cping 192.168.0.90[3Psudo ifconfig ping 192.168.0.90[K[K69
+PING 192.168.0.69 (192.168.0.69) 56(84) bytes of data.
+64 bytes from 192.168.0.69: icmp_seq=1 ttl=64 time=0.462 ms
+64 bytes from 192.168.0.69: icmp_seq=2 ttl=64 time=0.258 ms
+64 bytes from 192.168.0.69: icmp_seq=3 ttl=64 time=0.281 ms
+64 bytes from 192.168.0.69: icmp_seq=4 ttl=64 time=0.270 ms
+64 bytes from 192.168.0.69: icmp_seq=5 ttl=64 time=0.264 ms
+64 bytes from 192.168.0.69: icmp_seq=6 ttl=64 time=0.272 ms
+64 bytes from 192.168.0.69: icmp_seq=7 ttl=64 time=0.266 ms
+64 bytes from 192.168.0.69: icmp_seq=8 ttl=64 time=0.205 ms
+^Z
+[1]+  Stopped                 ping 192.168.0.69
+]0;cec@cec-H110M-S2: ~/Desktop[01;32mcec@cec-H110M-S2[00m:[01;34m~/Desktop[00m$ ping 192.168.0.69sudo ifconfig enp1s0 192.168.0.99 netmask 255.255.2555.0[A]0;cec@cec-H110M-S2: ~/Desktop[01;32mcec@cec-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cping 192.168.0.90[3Psudo ifconfig ping 192.168.0.90[3Psudo ifconfig enp1s0 192.168.0.99 netmask 255.255.2555.0[A]0;cec@cec-H110M-S2: ~/Desktop[01;32mcec@cec-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+enp1s0    Link encap:Ethernet  HWaddr e0:d5:5e:07:19:af  
+          inet addr:192.168.0.99  Bcast:192.168.0.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:10295026 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:18536 errors:2 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:3552865087 (3.5 GB)  TX bytes:2396230 (2.3 MB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:5358 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:5358 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:372048 (372.0 KB)  TX bytes:372048 (372.0 KB)
+
+]0;cec@cec-H110M-S2: ~/Desktop[01;32mcec@cec-H110M-S2[00m:[01;34m~/Desktop[00m$ sudo ifconfig ping 192.168.0.69sudo ifconfig enp1s0 192.168.0.99 netmask 255.255.2555.0[A]0;cec@cec-H110M-S2: ~/Desktop[01;32mcec@cec-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cping 192.168.0.90[3Psudo ifconfig ping 192.168.0.90[3Psudo ifconfig ping 192.168.0.90[K[K69
+PING 192.168.0.69 (192.168.0.69) 56(84) bytes of data.
+^Z
+[2]+  Stopped                 ping 192.168.0.69
+]0;cec@cec-H110M-S2: ~/Desktop[01;32mcec@cec-H110M-S2[00m:[01;34m~/Desktop[00m$ ping 192.168.0.69[3Psudo ifconfig ping 192.168.0.69[3Psudo ifconfig ping 192.168.0.69sudo ifconfig enp1s0 192.168.0.99 netmask 255.255.2555.0[A]0;cec@cec-H110M-S2: ~/Desktop[01;32mcec@cec-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cping 192.168.0.90[3Psudo ifconfig enp1s0 192.168.0.99 netmask 255.255.2555.0[A]0;cec@cec-H110M-S2: ~/Desktop[01;32mcec@cec-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kifconfig[4Pexitifconfigsudo ifconfig enp1s0 down[7Pdown enp1s0[1Pping 192.168.0.98sudo ifdown enp1s0[1Pping 192.168.0.98[4Psudo ifconfig enp1s0 192.168.0.98 netmask 255.255.2555.0[A]0;cec@cec-H110M-S2: ~/Desktop[01;32mcec@cec-H110M-S2[00m:[01;34m~/Desktop[00m$ [Ccript lan.txt[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7Pman sshsudo ifconfig[6Pman sshscript lan.txtudo ifconfig enp1s0 192.168.0.98 netmask 255.255.2555.0[A]0;cec@cec-H110M-S2: ~/Desktop[01;32mcec@cec-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cping 192.168.0.98sudo ifdown enp1s0config enp1s0 down[7Pdown enp1s0[1Pping 192.168.0.98[4Psudo ifconfigping 192.168.0.98sudo ifdown enp1s0config enp1s0 down
+]0;cec@cec-H110M-S2: ~/Desktop[01;32mcec@cec-H110M-S2[00m:[01;34m~/Desktop[00m$ sudo ifconfig
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:5358 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:5358 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:372048 (372.0 KB)  TX bytes:372048 (372.0 KB)
+
+]0;cec@cec-H110M-S2: ~/Desktop[01;32mcec@cec-H110M-S2[00m:[01;34m~/Desktop[00m$ ec[Kxit
+exit
+There are stopped jobs.
+]0;cec@cec-H110M-S2: ~/Desktop[01;32mcec@cec-H110M-S2[00m:[01;34m~/Desktop[00m$ exit
+exit
+
+Script done on Monday 18 March 2019 11:50:58 PM IST
