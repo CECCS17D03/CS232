@@ -1,0 +1,24 @@
+cec-lab2@ceclab2-H110M-S2:~$ rsync -zvh  cs17d03@192.168.0.30:/home/cs17d03/hello.txt /home/cec-lab2/
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d03@192.168.0.30's password: 
+hello.txt
+
+sent 49 bytes  received 81 bytes  17.33 bytes/sec
+total size is 13  speedup is 0.10
+
+cec-lab2@ceclab2-H110M-S2:~$ rsync -zvh new.txt cs17d03@192.168.0.30:/home/cs17d03
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d03@192.168.0.30's password: 
+new.txt
+
+sent 79 bytes  received 41 bytes  34.29 bytes/sec
+total size is 10  speedup is 0.08
+
