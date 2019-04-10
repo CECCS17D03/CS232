@@ -1,0 +1,44 @@
+cec@cec-H110M-S2:~$ sudo apt-get install vsftpd
+[sudo] password for cec: 
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+vsftpd is already the newest version (3.0.3-3ubuntu2).
+0 upgraded, 0 newly installed, 0 to remove and 98 not upgraded.
+cec@cec-H110M-S2:~$ sudo nano /etc/vsftpd.conf
+cec@cec-H110M-S2:~$ sudo service vsftpd restart
+cec@cec-H110M-S2:~$ sudo systemctl status vsftpd
+● vsftpd.service - vsftpd FTP server
+   Loaded: loaded (/lib/systemd/system/vsftpd.service; enabled; vendor preset: enabled)
+   Active: active (running) since Thu 2019-04-04 10:57:52 IST; 8s ago
+  Process: 9193 ExecStartPre=/bin/mkdir -p /var/run/vsftpd/empty (code=exited, status=0/SUCC
+ Main PID: 9195 (vsftpd)
+   CGroup: /system.slice/vsftpd.service
+           └─9195 /usr/sbin/vsftpd /etc/vsftpd.conf
+
+Apr 04 10:57:51 cec-H110M-S2 systemd[1]: Starting vsftpd FTP server...
+Apr 04 10:57:52 cec-H110M-S2 systemd[1]: Started vsftpd FTP server.
+
+[1]+  Stopped                 sudo systemctl status vsftpd
+cec@cec-H110M-S2:~$ sudo adduser alen
+Adding user `alen' ...
+Adding new group `alen' (1012) ...
+Adding new user `alen' (1012) with group `alen' ...
+Creating home directory `/home/alen' ...
+Copying files from `/etc/skel' ...
+Enter new UNIX password: 
+Retype new UNIX password: 
+passwd: password updated successfully
+Changing the user information for alen
+Enter the new value, or press ENTER for the default
+	Full Name []: Alen Anto Abrham
+	Room Number []: 5
+	Work Phone []: 
+	Home Phone []: 
+	Other []: 
+Is the information correct? [Y/n] y
+cec@cec-H110M-S2:~$ sudo telnet localhost 21
+Trying 127.0.0.1...
+Connected to localhost.
+Escape character is '^]'.
+220 Welcome to blah FTP service.
