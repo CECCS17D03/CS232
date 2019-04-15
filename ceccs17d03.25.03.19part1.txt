@@ -1,1 +1,47 @@
-https://drive.google.com/open?id=1h2JVXNJaRhqujYonguysYtpb3ITNbEW1
+Script started on Monday 25 March 2019 11:25:10 PM IST
+]0;cec-lab2@ceclab2-H110M-S2: ~[01;32mcec-lab2@ceclab2-H110M-S2[00m:[01;34m~[00m$ ssh cs17d03@192.168.0.1~[K[K30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d03@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+278 packages can be updated.
+0 updates are security updates.
+
+Last login: Mon Mar 25 10:58:59 2019 from 192.168.0.78
+
+$ ls
+examples.desktop  hello.txt  new  newfolder
+$ rm  dir newfolder
+$ cat hello.txt
+Hello World
+
+$ cp hello.txt /home/cs17d03/new
+$ cd new
+$ ls
+hello.txt  new1.txt
+$ cat hello.txt
+Hello World
+
+$ rm hello.txt
+$ t ls
+new1.txt
+$ cd ..
+$ touch newfile.txt
+$ pwd
+/home/cs17d03
+$ mkdir newfolder
+$ ls
+examples.desktop  hello.txt  new  newfile.txt  newfolder
+$ exit
+Connection to 192.168.0.30 closed.
+
+]0;cec-lab2@ceclab2-H110M-S2: ~[01;32mcec-lab2@ceclab2-H110M-S2[00m:[01;34m~[00m$ exit
+exit
+
+Script done on Monday 25 March 2019 11:31:11 PM IST
