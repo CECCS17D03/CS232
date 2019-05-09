@@ -1,750 +1,0 @@
-Script started on Monday 04 February 2019 10:08:06 PM IST
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ cat>new.txt
-Hi World!
-^C
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ cat [K?[K>new1.txt
-Hey All
-^C
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ 
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ cat new.txt>>new1.txt
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ cat new.txt
-Hi World!
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ cat new.txt>>new1.txt
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ cat a.txt
-cat: a.txt: No such file or directory
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ cat a.txt[1Pa.txt>a.txt>a.txt[1Pa.txt
-a
-b
-c
-d
-^C
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ ^C
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ ct[K[Ka[Kcat>b.txt
-1
-w 2
-3
-4
-^Z
-[1]+  Stopped                 cat > b.txt
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ ls
-a.txt  b.txt  ceccs17d03.04.02.19.txt  new1.txt  new.txt
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ ls -l
-total 16
--rw-r--r-- 1 s4d1 s4d1  8 Feb  4 22:12 a.txt
--rw-r--r-- 1 s4d1 s4d1  8 Feb  4 22:12 b.txt
--rw-r--r-- 1 s4d1 s4d1  0 Feb  4 22:08 ceccs17d03.04.02.19.txt
--rw-r--r-- 1 s4d1 s4d1 28 Feb  4 22:11 new1.txt
--rw-r--r-- 1 s4d1 s4d1 10 Feb  4 22:08 new.txt
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ ls -lt
-total 16
--rw-r--r-- 1 s4d1 s4d1  8 Feb  4 22:12 b.txt
--rw-r--r-- 1 s4d1 s4d1  8 Feb  4 22:12 a.txt
--rw-r--r-- 1 s4d1 s4d1 28 Feb  4 22:11 new1.txt
--rw-r--r-- 1 s4d1 s4d1 10 Feb  4 22:08 new.txt
--rw-r--r-- 1 s4d1 s4d1  0 Feb  4 22:08 ceccs17d03.04.02.19.txt
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ ls -ltr
-total 16
--rw-r--r-- 1 s4d1 s4d1  0 Feb  4 22:08 ceccs17d03.04.02.19.txt
--rw-r--r-- 1 s4d1 s4d1 10 Feb  4 22:08 new.txt
--rw-r--r-- 1 s4d1 s4d1 28 Feb  4 22:11 new1.txt
--rw-r--r-- 1 s4d1 s4d1  8 Feb  4 22:12 a.txt
--rw-r--r-- 1 s4d1 s4d1  8 Feb  4 22:12 b.txt
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ ls [K[K[Kalias
-alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
-alias egrep='egrep --color=auto'
-alias fgrep='fgrep --color=auto'
-alias grep='grep --color=auto'
-alias l='ls -CF'
-alias la='ls -A'
-alias ll='ls -alF'
-alias ls='ls --color=auto'
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ alias ll='ls -al'
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ unalias ll[K[K||
-> 
-> 
-> ^C
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ alias ||='ls -al'
-alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
-alias egrep='egrep --color=auto'
-alias fgrep='fgrep --color=auto'
-alias grep='grep --color=auto'
-alias l='ls -CF'
-alias la='ls -A'
-alias ll='ls -al'
-alias ls='ls --color=auto'
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ ||> ac[Kbc,[K.txt
-bash: syntax error near unexpected token `||'
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ cat a
-cat: a: No such file or directory
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ cat a.txt
-a
-b
-c
-d
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ grep man
-
-
-
-
-
-
-
-
-
-^C
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ grep a,[K.txt
-a
-
-
-
-^C
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ 
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ grep "a" a.txt
-[01;31m[Ka[m[K
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ cat [K>profile.txt
-Alen Anto Abrhah   aham
-s S4e  D
-Roll No O:# 3
-^C
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ grep "anto [K" profile.txt
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ grep "anto" profile.txt[C[1P[1@A
-Alen [01;31m[KAnto[m[K Abraham
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ ln -s profile.txt me.txt
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ ln -s profile.txt me.txt~~[K[K[K[K[K[K[K[K[K
-ln: failed to create symbolic link './profile.txt': File exists
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ ln -s profile.txt[K[K[K[K[K[K[K[K[K[K[Ka.ttx[K[Kxt
-ln: failed to create symbolic link './a.txt': File exists
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ cat -e profile.txt
-Alen Anto Abraham$
-S4 D$
-Roll NO:3$
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ join a.txt b.ttx[K[Kxt
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ a[Kcat a.ttx[K[Kxt
-a
-b
-c
-d
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ free
-              total        used        free      shared  buff/cache   available
-Mem:        3928916     1710760      904240      431228     1313916     1542816
-Swap:       9848824           0     9848824
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ new.txt
-new.txt: command not found
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ ifconfig
-The program 'ifconfig' is currently not installed. To run 'ifconfig' please ask your administrator to install the package 'net-tools'
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ ifconfig -a
-The program 'ifconfig' is currently not installed. To run 'ifconfig' please ask your administrator to install the package 'net-tools'
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ iwconfig
-lo        no wireless extensions.
-
-enp1s0    no wireless extensions.
-
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ cat -n a.txt
-     1	a
-     2	b
-     3	c
-     4	d
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ cat -n a.txt[1P.txtb.txt
-     1	1
-     2	2
-     3	3
-     4	4
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ ifup
-ifup: no interface(s) specified
-ifup: Use --help for help
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ ifconfig ifup
-The program 'ifconfig' is currently not installed. To run 'ifconfig' please ask your administrator to install the package 'net-tools'
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ mkdir
-mkdir: missing operand
-Try 'mkdir --help' for more information.
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ mkdir new
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ rmdir new
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ cd
-]0;s4d1@ceclab2-H110M-S2: ~[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~[00m$ cd Desktop
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [K]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ locatr
-No command 'locatr' found, did you mean:
- Command 'locate' from package 'mlocate' (main)
- Command 'locate' from package 'locate' (universe)
-locatr: command not found
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ locatr[C[Ke
-locate: no pattern to search for specified
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ man
-What manual page do you want?
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ y
-y: command not found
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ man ifconfig
-No manual entry for ifconfig
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ man cp
-[?1049h[?1h=CP(1)                       User Commands                      CP(1)[m
-[m
-[1mNAME[0m[m
-       cp - copy files and directories[m
-[m
-[1mSYNOPSIS[0m[m
-       [1mcp[0m [[4mOPTION[24m]... [[4m-T[24m] [4mSOURCE[24m [4mDEST[24m[m
-       [1mcp[0m [[4mOPTION[24m]... [4mSOURCE[24m... [4mDIRECTORY[24m[m
-       [1mcp[0m [[4mOPTION[24m]... [4m-t[24m [4mDIRECTORY[24m [4mSOURCE[24m...[m
-[m
-[1mDESCRIPTION[0m[m
-       Copy SOURCE to DEST, or multiple SOURCE(s) to DIRECTORY.[m
-[m
-       Mandatory  arguments  to long options are mandatory for short[m
-       options too.[m
-[m
-       [1m-a[0m, [1m--archive[0m[m
-              same as [1m-dR[0m [1m--preserve[0m=[4mall[24m[m
-[m
-       [1m--attributes-only[0m[m
-              don't copy the file data, just the attributes[m
-[m
-       [1m--backup[0m[=[4mCONTROL[24m][m
-              make a backup of each existing destination file[m
-[m
-       [1m-b[0m     like [1m--backup[0m but does not accept an argument[m
-[m
-       [1m--copy-contents[0m[m
-              copy contents of special files when recursive[m
-[m
-       [1m-d[0m     same as [1m--no-dereference[0m [1m--preserve[0m=[4mlinks[24m[m
-[m
-       [1m-f[0m, [1m--force[0m[m
-              if an existing  destination  file  cannot  be  opened,[m
-              remove  it  and try again (this option is ignored when[m
-              the [1m-n[0m option is also used)[m
-[m
-       [1m-i[0m, [1m--interactive[0m[m
-              prompt  before  overwrite  (overrides  a  previous  [1m-n[0m[m
-              option)[m
-[m
-[7m Manual page cp(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-H[0m     follow command-line symbolic links in SOURCE[m
-[7m Manual page cp(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page cp(1) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-l[0m, [1m--link[0m[m
-[7m Manual page cp(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              hard link files instead of copying[m
-[7m Manual page cp(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page cp(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-L[0m, [1m--dereference[0m[m
-[7m Manual page cp(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              always follow symbolic links in SOURCE[m
-[7m Manual page cp(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page cp(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-n[0m, [1m--no-clobber[0m[m
-[7m Manual page cp(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              do  not overwrite an existing file (overrides a previ‐[m
-[7m Manual page cp(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              ous [1m-i[0m option)[m
-[7m Manual page cp(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page cp(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-P[0m, [1m--no-dereference[0m[m
-[7m Manual page cp(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              never follow symbolic links in SOURCE[m
-[7m Manual page cp(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page cp(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-p[0m     same as [1m--preserve[0m=[4mmode[24m,ownership,timestamps[m
-[7m Manual page cp(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page cp(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--preserve[0m[=[4mATTR_LIST[24m][m
-[7m Manual page cp(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              preserve the specified attributes (default:  mode,own‐[m
-[7m Manual page cp(1) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              ership,timestamps), if possible additional attributes:[m
-[7m Manual page cp(1) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              context, links, xattr, all[m
-[7m Manual page cp(1) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page cp(1) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--no-preserve[0m=[4mATTR_LIST[24m[m
-[7m Manual page cp(1) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              don't preserve the specified attributes[m
-[7m Manual page cp(1) line 25 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page cp(1) line 26 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--parents[0m[m
-[7m Manual page cp(1) line 27 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              use full source file name under DIRECTORY[m
-[7m Manual page cp(1) line 28 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page cp(1) line 29 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-R[0m, [1m-r[0m, [1m--recursive[0m[m
-[7m Manual page cp(1) line 30 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              copy directories recursively[m
-[7m Manual page cp(1) line 31 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page cp(1) line 32 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--reflink[0m[=[4mWHEN[24m][m
-[7m Manual page cp(1) line 33 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              control clone/CoW copies. See below[m
-[7m Manual page cp(1) line 34 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page cp(1) line 35 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--remove-destination[0m[m
-[7m Manual page cp(1) line 36 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              remove each existing destination file before  attempt‐[m
-[7m Manual page cp(1) line 37 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              ing to open it (contrast with [1m--force[0m)[m
-[7m Manual page cp(1) line 38 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page cp(1) line 39 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--sparse[0m=[4mWHEN[24m[m
-[7m Manual page cp(1) line 40 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              control creation of sparse files. See below[m
-[7m Manual page cp(1) line 41 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page cp(1) line 42 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--strip-trailing-slashes[0m[m
-[7m Manual page cp(1) line 43 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              remove any trailing slashes from each SOURCE argument[m
-[7m Manual page cp(1) line 44 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page cp(1) line 45 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-s[0m, [1m--symbolic-link[0m[m
-[7m Manual page cp(1) line 46 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              make symbolic links instead of copying[m
-[7m Manual page cp(1) line 47 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page cp(1) line 48 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-S[0m, [1m--suffix[0m=[4mSUFFIX[24m[m
-[7m Manual page cp(1) line 49 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              override the usual backup suffix[m
-[7m Manual page cp(1) line 50 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page cp(1) line 51 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-t[0m, [1m--target-directory[0m=[4mDIRECTORY[24m[m
-[7m Manual page cp(1) line 52 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              copy all SOURCE arguments into DIRECTORY[m
-[7m Manual page cp(1) line 53 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page cp(1) line 54 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-T[0m, [1m--no-target-directory[0m[m
-[7m Manual page cp(1) line 55 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              treat DEST as a normal file[m
-[7m Manual page cp(1) line 56 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page cp(1) line 57 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-u[0m, [1m--update[0m[m
-[7m Manual page cp(1) line 58 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              copy  only when the SOURCE file is newer than the des‐[m
-[7m Manual page cp(1) line 59 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              tination file or when the destination file is missing[m
-[7m Manual page cp(1) line 60 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page cp(1) line 61 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-v[0m, [1m--verbose[0m[m
-[7m Manual page cp(1) line 62 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              explain what is being done[m
-[7m Manual page cp(1) line 63 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page cp(1) line 64 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-x[0m, [1m--one-file-system[0m[m
-[7m Manual page cp(1) line 65 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              stay on this file system[m
-[7m Manual page cp(1) line 66 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page cp(1) line 67 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-Z[0m     set SELinux security context of  destination  file  to[m
-[7m Manual page cp(1) line 68 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              default type[m
-[7m Manual page cp(1) line 69 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page cp(1) line 70 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--context[0m[=[4mCTX[24m][m
-[7m Manual page cp(1) line 71 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              like  [1m-Z[0m,  or if CTX is specified then set the SELinux[m
-[7m Manual page cp(1) line 72 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              or SMACK security context to CTX[m
-[7m Manual page cp(1) line 73 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page cp(1) line 74 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--help[0m display this help and exit[m
-[7m Manual page cp(1) line 75 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page cp(1) line 76 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--version[0m[m
-[7m Manual page cp(1) line 77 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              output version information and exit[m
-[7m Manual page cp(1) line 78 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page cp(1) line 79 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       By default, sparse SOURCE  files  are  detected  by  a  crude[m
-[7m Manual page cp(1) line 80 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       heuristic  and  the corresponding DEST file is made sparse as[m
-[7m Manual page cp(1) line 81 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       well.  That is the behavior selected by [1m--sparse[0m=[4mauto[24m.  Spec‐[m
-[7m Manual page cp(1) line 82 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       ify [1m--sparse[0m=[4malways[24m to create a sparse DEST file whenever the[m
-[7m Manual page cp(1) line 83 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       SOURCE file contains a long enough sequence  of  zero  bytes.[m
-[7m Manual page cp(1) line 84 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Use [1m--sparse[0m=[4mnever[24m to inhibit creation of sparse files.[m
-[7m Manual page cp(1) line 85 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page cp(1) line 86 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       When  [1m--reflink[0m[=[4malways[24m]  is specified, perform a lightweight[m
-[7m Manual page cp(1) line 87 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       copy, where the data blocks are copied  only  when  modified.[m
-[7m Manual page cp(1) line 88 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       If  this is not possible the copy fails, or if [1m--reflink[0m=[4mauto[24m[m
-[7m Manual page cp(1) line 89 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       is specified, fall back to a standard copy.[m
-[7m Manual page cp(1) line 90 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page cp(1) line 91 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The backup suffix is '~', unless set with  [1m--suffix[0m  or  SIM‐[m
-[7m Manual page cp(1) line 92 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       PLE_BACKUP_SUFFIX.    The   version  control  method  may  be[m
-[7m Manual page cp(1) line 93 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       selected via the [1m--backup[0m option or through the  VERSION_CON‐[m
-[7m Manual page cp(1) line 94 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       TROL environment variable.  Here are the values:[m
-[7m Manual page cp(1) line 95 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page cp(1) line 96 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       none, off[m
-[7m Manual page cp(1) line 97 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              never make backups (even if [1m--backup[0m is given)[m
-[7m Manual page cp(1) line 98 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page cp(1) line 99 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       numbered, t[m
-[7m Manual page cp(1) line 100 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              make numbered backups[m
-[7m Manual page cp(1) line 101 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page cp(1) line 102 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       existing, nil[m
-[7m Manual page cp(1) line 103 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              numbered if numbered backups exist, simple otherwise[m
-[7m Manual page cp(1) line 104 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page cp(1) line 105 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       simple, never[m
-[7m Manual page cp(1) line 106 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              always make simple backups[m
-[7m Manual page cp(1) line 107 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page cp(1) line 108 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       As a special case, cp makes a backup of SOURCE when the force[m
-[7m Manual page cp(1) line 109 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       and backup options are given and SOURCE and DEST are the same[m
-[7m Manual page cp(1) line 110 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       name for an existing, regular file.[m
-[7m Manual page cp(1) line 111 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page cp(1) line 112 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mAUTHOR[0m[m
-[7m Manual page cp(1) line 113 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Written by Torbjorn Granlund, David MacKenzie, and Jim Meyer‐[m
-[7m Manual page cp(1) line 114 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       ing.[m
-[7m Manual page cp(1) line 115 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page cp(1) line 116 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mREPORTING[0m [1mBUGS[0m[m
-[7m Manual page cp(1) line 117 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       GNU coreutils online help: <http://www.gnu.org/software/core‐[m
-[7m Manual page cp(1) line 118 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       utils/>[m
-[7m Manual page cp(1) line 119 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Report   cp   translation   bugs  to  <http://translationpro‐[m
-[7m Manual page cp(1) line 120 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       ject.org/team/>[m
-[7m Manual page cp(1) line 121 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page cp(1) line 122 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mCOPYRIGHT[0m[m
-[7m Manual page cp(1) line 123 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Copyright © 2016  Free  Software  Foundation,  Inc.   License[m
-[7m Manual page cp(1) line 124 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       GPLv3+:      GNU      GPL      version     3     or     later[m
-[7m Manual page cp(1) line 125 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       <http://gnu.org/licenses/gpl.html>.[m
-[7m Manual page cp(1) line 126 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       This is free software: you are  free  to  change  and  redis‐[m
-[7m Manual page cp(1) line 127 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       tribute it.  There is NO WARRANTY, to the extent permitted by[m
-[7m Manual page cp(1) line 128 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       law.[m
-[7m Manual page cp(1) line 129 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page cp(1) line 130 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mSEE[0m [1mALSO[0m[m
-[7m Manual page cp(1) line 131 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Full  documentation  at:   <http://www.gnu.org/software/core‐[m
-[7m Manual page cp(1) line 132 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       utils/cp>[m
-[7m Manual page cp(1) line 133 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       or available locally via: info '(coreutils) cp invocation'[m
-[7m Manual page cp(1) line 134 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page cp(1) line 135 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[KGNU coreutils 8.26           March 2017                        CP(1)[m
-[7m Manual page cp(1) line 136 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page cp(1) line 136/176 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page cp(1) line 136/176 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page cp(1) line 136/176 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page cp(1) line 136/176 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page cp(1) line 136/176 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page cp(1) line 136/176 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page cp(1) line 136/176 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page cp(1) line 136/176 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page cp(1) line 136/176 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page cp(1) line 136/176 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page cp(1) line 136/176 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page cp(1) line 136/176 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page cp(1) line 136/176 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page cp(1) line 136/176 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page cp(1) line 136/176 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page cp(1) line 136/176 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page cp(1) line 136/176 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page cp(1) line 136/176 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page cp(1) line 136/176 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page cp(1) line 136/176 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page cp(1) line 136/176 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page cp(1) line 136/176 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page cp(1) line 136/176 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page cp(1) line 136/176 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page cp(1) line 136/176 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page cp(1) line 136/176 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page cp(1) line 136/176 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page cp(1) line 136/176 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page cp(1) line 136/176 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page cp(1) line 136/176 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page cp(1) line 136/176 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page cp(1) line 136/176 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page cp(1) line 136/176 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page cp(1) line 136/176 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page cp(1) line 136/176 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page cp(1) line 136/176 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page cp(1) line 136/176 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page cp(1) line 136/176 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page cp(1) line 136/176 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page cp(1) line 136/176 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page cp(1) line 136/176 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page cp(1) line 136/176 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page cp(1) line 136/176 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page cp(1) line 136/176 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page cp(1) line 136/176 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       TROL environment variable.  Here are the values:[m
-[42;1H[K[7m Manual page cp(1) line 135/176 99% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       selected via the [1m--backup[0m option or through the  VERSION_CON‐[m
-[42;1H[K[7m Manual page cp(1) line 134/176 99% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       PLE_BACKUP_SUFFIX.    The   version  control  method  may  be[m
-[42;1H[K[7m Manual page cp(1) line 133/176 98% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       The backup suffix is '~', unless set with  [1m--suffix[0m  or  SIM‐[m
-[42;1H[K[7m Manual page cp(1) line 132/176 98% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
-[42;1H[K[7m Manual page cp(1) line 131/176 97% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       is specified, fall back to a standard copy.[m
-[42;1H[K[7m Manual page cp(1) line 130/176 97% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       If  this is not possible the copy fails, or if [1m--reflink[0m=[4mauto[24m[m
-[42;1H[K[7m Manual page cp(1) line 129/176 97% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       copy, where the data blocks are copied  only  when  modified.[m
-[42;1H[K[7m Manual page cp(1) line 128/176 96% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       When  [1m--reflink[0m[=[4malways[24m]  is specified, perform a lightweight[m
-[42;1H[K[7m Manual page cp(1) line 127/176 95% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
-[42;1H[K[7m Manual page cp(1) line 126/176 94% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       Use [1m--sparse[0m=[4mnever[24m to inhibit creation of sparse files.[m
-[42;1H[K[7m Manual page cp(1) line 125/176 94% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       SOURCE file contains a long enough sequence  of  zero  bytes.[m
-[42;1H[K[7m Manual page cp(1) line 124/176 93% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       ify [1m--sparse[0m=[4malways[24m to create a sparse DEST file whenever the[m
-[42;1H[K[7m Manual page cp(1) line 123/176 92% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       well.  That is the behavior selected by [1m--sparse[0m=[4mauto[24m.  Spec‐[m
-[42;1H[K[7m Manual page cp(1) line 122/176 92% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       heuristic  and  the corresponding DEST file is made sparse as[m
-[42;1H[K[7m Manual page cp(1) line 121/176 92% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       By default, sparse SOURCE  files  are  detected  by  a  crude[m
-[42;1H[K[7m Manual page cp(1) line 120/176 91% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
-[42;1H[K[7m Manual page cp(1) line 119/176 90% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              output version information and exit[m
-[42;1H[K[7m Manual page cp(1) line 118/176 90% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m--version[0m[m
-[42;1H[K[7m Manual page cp(1) line 117/176 89% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
-[42;1H[K[7m Manual page cp(1) line 116/176 88% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m--help[0m display this help and exit[m
-[42;1H[K[7m Manual page cp(1) line 115/176 88% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
-[42;1H[K[7m Manual page cp(1) line 114/176 88% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              or SMACK security context to CTX[m
-[42;1H[K[7m Manual page cp(1) line 113/176 87% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              like  [1m-Z[0m,  or if CTX is specified then set the SELinux[m
-[42;1H[K[7m Manual page cp(1) line 112/176 87% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m--context[0m[=[4mCTX[24m][m
-[42;1H[K[7m Manual page cp(1) line 111/176 87% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
-[42;1H[K[7m Manual page cp(1) line 110/176 86% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              default type[m
-[42;1H[K[7m Manual page cp(1) line 109/176 85% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-Z[0m     set SELinux security context of  destination  file  to[m
-[42;1H[K[7m Manual page cp(1) line 108/176 85% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
-[42;1H[K[7m Manual page cp(1) line 107/176 84% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              stay on this file system[m
-[42;1H[K[7m Manual page cp(1) line 106/176 84% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-x[0m, [1m--one-file-system[0m[m
-[42;1H[K[7m Manual page cp(1) line 105/176 84% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
-[42;1H[K[7m Manual page cp(1) line 104/176 84% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              explain what is being done[m
-[42;1H[K[7m Manual page cp(1) line 103/176 83% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-v[0m, [1m--verbose[0m[m
-[42;1H[K[7m Manual page cp(1) line 102/176 82% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
-[42;1H[K[7m Manual page cp(1) line 101/176 82% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              tination file or when the destination file is missing[m
-[42;1H[K[7m Manual page cp(1) line 100/176 82% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              copy  only when the SOURCE file is newer than the des‐[m
-[42;1H[K[7m Manual page cp(1) line 99/176 82% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-u[0m, [1m--update[0m[m
-[42;1H[K[7m Manual page cp(1) line 98/176 82% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
-[42;1H[K[7m Manual page cp(1) line 97/176 81% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              treat DEST as a normal file[m
-[42;1H[K[7m Manual page cp(1) line 96/176 80% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-T[0m, [1m--no-target-directory[0m[m
-[42;1H[K[7m Manual page cp(1) line 95/176 80% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
-[42;1H[K[7m Manual page cp(1) line 94/176 80% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              copy all SOURCE arguments into DIRECTORY[m
-[42;1H[K[7m Manual page cp(1) line 93/176 78% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-t[0m, [1m--target-directory[0m=[4mDIRECTORY[24m[m
-[42;1H[K[7m Manual page cp(1) line 92/176 77% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
-[42;1H[K[7m Manual page cp(1) line 91/176 76% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              override the usual backup suffix[m
-[42;1H[K[7m Manual page cp(1) line 90/176 76% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-S[0m, [1m--suffix[0m=[4mSUFFIX[24m[m
-[42;1H[K[7m Manual page cp(1) line 89/176 75% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
-[42;1H[K[7m Manual page cp(1) line 88/176 74% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              make symbolic links instead of copying[m
-[42;1H[K[7m Manual page cp(1) line 87/176 73% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-s[0m, [1m--symbolic-link[0m[m
-[42;1H[K[7m Manual page cp(1) line 86/176 72% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
-[42;1H[K[7m Manual page cp(1) line 85/176 72% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              remove any trailing slashes from each SOURCE argument[m
-[42;1H[K[7m Manual page cp(1) line 84/176 71% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m--strip-trailing-slashes[0m[m
-[42;1H[K[7m Manual page cp(1) line 83/176 70% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
-[42;1H[K[7m Manual page cp(1) line 82/176 68% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              control creation of sparse files. See below[m
-[42;1H[K[7m Manual page cp(1) line 81/176 67% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m--sparse[0m=[4mWHEN[24m[m
-[42;1H[K[7m Manual page cp(1) line 80/176 66% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
-[42;1H[K[7m Manual page cp(1) line 79/176 65% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              ing to open it (contrast with [1m--force[0m)[m
-[42;1H[K[7m Manual page cp(1) line 78/176 65% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              remove each existing destination file before  attempt‐[m
-[42;1H[K[7m Manual page cp(1) line 77/176 64% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m--remove-destination[0m[m
-[42;1H[K[7m Manual page cp(1) line 76/176 64% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
-[42;1H[K[7m Manual page cp(1) line 75/176 64% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              control clone/CoW copies. See below[m
-[42;1H[K[7m Manual page cp(1) line 74/176 63% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m--reflink[0m[=[4mWHEN[24m][m
-[42;1H[K[7m Manual page cp(1) line 73/176 63% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
-[42;1H[K[7m Manual page cp(1) line 72/176 62% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              copy directories recursively[m
-[42;1H[K[7m Manual page cp(1) line 71/176 61% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-R[0m, [1m-r[0m, [1m--recursive[0m[m
-[42;1H[K[7m Manual page cp(1) line 70/176 61% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
-[42;1H[K[7m Manual page cp(1) line 69/176 61% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              use full source file name under DIRECTORY[m
-[42;1H[K[7m Manual page cp(1) line 68/176 60% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m--parents[0m[m
-[42;1H[K[7m Manual page cp(1) line 67/176 59% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
-[42;1H[K[7m Manual page cp(1) line 66/176 59% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              don't preserve the specified attributes[m
-[42;1H[K[7m Manual page cp(1) line 65/176 59% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m--no-preserve[0m=[4mATTR_LIST[24m[m
-[42;1H[K[7m Manual page cp(1) line 64/176 58% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
-[42;1H[K[7m Manual page cp(1) line 63/176 58% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              context, links, xattr, all[m
-[42;1H[K[7m Manual page cp(1) line 62/176 57% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              ership,timestamps), if possible additional attributes:[m
-[42;1H[K[7m Manual page cp(1) line 61/176 57% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              preserve the specified attributes (default:  mode,own‐[m
-[42;1H[K[7m Manual page cp(1) line 60/176 57% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m--preserve[0m[=[4mATTR_LIST[24m][m
-[42;1H[K[7m Manual page cp(1) line 59/176 56% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
-[42;1H[K[7m Manual page cp(1) line 58/176 55% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-p[0m     same as [1m--preserve[0m=[4mmode[24m,ownership,timestamps[m
-[42;1H[K[7m Manual page cp(1) line 57/176 54% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
-[42;1H[K[7m Manual page cp(1) line 56/176 54% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              never follow symbolic links in SOURCE[m
-[42;1H[K[7m Manual page cp(1) line 55/176 54% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-P[0m, [1m--no-dereference[0m[m
-[42;1H[K[7m Manual page cp(1) line 54/176 52% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
-[42;1H[K[7m Manual page cp(1) line 53/176 52% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              ous [1m-i[0m option)[m
-[42;1H[K[7m Manual page cp(1) line 52/176 52% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              do  not overwrite an existing file (overrides a previ‐[m
-[42;1H[K[7m Manual page cp(1) line 51/176 50% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-n[0m, [1m--no-clobber[0m[m
-[42;1H[K[7m Manual page cp(1) line 50/176 50% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
-[42;1H[K[7m Manual page cp(1) line 49/176 50% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              always follow symbolic links in SOURCE[m
-[42;1H[K[7m Manual page cp(1) line 48/176 49% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-L[0m, [1m--dereference[0m[m
-[42;1H[K[7m Manual page cp(1) line 47/176 49% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
-[42;1H[K[7m Manual page cp(1) line 46/176 48% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              hard link files instead of copying[m
-[42;1H[K[7m Manual page cp(1) line 45/176 47% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-l[0m, [1m--link[0m[m
-[42;1H[K[7m Manual page cp(1) line 44/176 47% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
-[42;1H[K[7m Manual page cp(1) line 43/176 46% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-H[0m     follow command-line symbolic links in SOURCE[m
-[42;1H[K[7m Manual page cp(1) line 42/176 45% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
-[42;1H[K[7m Manual page cp(1) line 41/176 45% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              option)[m
-[42;1H[K[7m Manual page cp(1) line 40/176 44% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              prompt  before  overwrite  (overrides  a  previous  [1m-n[0m[m
-[42;1H[K[7m Manual page cp(1) line 39/176 44% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-i[0m, [1m--interactive[0m[m
-[42;1H[K[7m Manual page cp(1) line 38/176 44% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
-[42;1H[K[7m Manual page cp(1) line 37/176 43% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              the [1m-n[0m option is also used)[m
-[42;1H[K[7m Manual page cp(1) line 36/176 42% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              remove  it  and try again (this option is ignored when[m
-[42;1H[K[7m Manual page cp(1) line 35/176 41% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              if an existing  destination  file  cannot  be  opened,[m
-[42;1H[K[7m Manual page cp(1) line 34/176 41% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-f[0m, [1m--force[0m[m
-[42;1H[K[7m Manual page cp(1) line 33/176 40% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
-[42;1H[K[7m Manual page cp(1) line 32/176 39% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-d[0m     same as [1m--no-dereference[0m [1m--preserve[0m=[4mlinks[24m[m
-[42;1H[K[7m Manual page cp(1) line 31/176 39% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
-[42;1H[K[7m Manual page cp(1) line 30/176 39% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              copy contents of special files when recursive[m
-[42;1H[K[7m Manual page cp(1) line 29/176 38% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m--copy-contents[0m[m
-[42;1H[K[7m Manual page cp(1) line 28/176 38% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
-[42;1H[K[7m Manual page cp(1) line 27/176 37% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-b[0m     like [1m--backup[0m but does not accept an argument[m
-[42;1H[K[7m Manual page cp(1) line 26/176 37% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
-[42;1H[K[7m Manual page cp(1) line 25/176 37% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              make a backup of each existing destination file[m
-[42;1H[K[7m Manual page cp(1) line 24/176 36% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m--backup[0m[=[4mCONTROL[24m][m
-[42;1H[K[7m Manual page cp(1) line 23/176 35% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
-[42;1H[K[7m Manual page cp(1) line 22/176 35% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              don't copy the file data, just the attributes[m
-[42;1H[K[7m Manual page cp(1) line 21/176 34% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m--attributes-only[0m[m
-[42;1H[K[7m Manual page cp(1) line 20/176 33% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
-[42;1H[K[7m Manual page cp(1) line 19/176 32% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              same as [1m-dR[0m [1m--preserve[0m=[4mall[24m[m
-[42;1H[K[7m Manual page cp(1) line 18/176 31% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-a[0m, [1m--archive[0m[m
-[42;1H[K[7m Manual page cp(1) line 17/176 31% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
-[42;1H[K[7m Manual page cp(1) line 16/176 30% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       options too.[m
-[42;1H[K[7m Manual page cp(1) line 15/176 30% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       Mandatory  arguments  to long options are mandatory for short[m
-[42;1H[K[7m Manual page cp(1) line 14/176 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
-[42;1H[K[7m Manual page cp(1) line 13/176 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       Copy SOURCE to DEST, or multiple SOURCE(s) to DIRECTORY.[m
-[42;1H[K[7m Manual page cp(1) line 12/176 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mDESCRIPTION[0m[m
-[42;1H[K[7m Manual page cp(1) line 11/176 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
-[42;1H[K[7m Manual page cp(1) line 10/176 27% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1mcp[0m [[4mOPTION[24m]... [4m-t[24m [4mDIRECTORY[24m [4mSOURCE[24m...[m
-[42;1H[K[7m Manual page cp(1) line 9/176 26% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1mcp[0m [[4mOPTION[24m]... [4mSOURCE[24m... [4mDIRECTORY[24m[m
-[42;1H[K[7m Manual page cp(1) line 8/176 26% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1mcp[0m [[4mOPTION[24m]... [[4m-T[24m] [4mSOURCE[24m [4mDEST[24m[m
-[42;1H[K[7m Manual page cp(1) line 7/176 26% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mSYNOPSIS[0m[m
-[42;1H[K[7m Manual page cp(1) line 6/176 25% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
-[42;1H[K[7m Manual page cp(1) line 5/176 25% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       cp - copy files and directories[m
-[42;1H[K[7m Manual page cp(1) line 4/176 24% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mNAME[0m[m
-[42;1H[K[7m Manual page cp(1) line 3/176 24% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
-[42;1H[K[7m Manual page cp(1) line 2/176 24% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HMCP(1)                       User Commands                      CP(1)[m
-[42;1H[K[7m Manual page cp(1) line 1/176 23% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-H[0m     follow command-line symbolic links in SOURCE[m
-[7m Manual page cp(1) line 2/176 24% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page cp(1) line 3/176 24% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-l[0m, [1m--link[0m[m
-[7m Manual page cp(1) line 4/176 24% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              hard link files instead of copying[m
-[7m Manual page cp(1) line 5/176 25% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page cp(1) line 6/176 25% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-L[0m, [1m--dereference[0m[m
-[7m Manual page cp(1) line 7/176 26% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              always follow symbolic links in SOURCE[m
-[7m Manual page cp(1) line 8/176 26% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page cp(1) line 9/176 26% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-n[0m, [1m--no-clobber[0m[m
-[7m Manual page cp(1) line 10/176 27% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              do  not overwrite an existing file (overrides a previ‐[m
-[7m Manual page cp(1) line 11/176 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              ous [1m-i[0m option)[m
-[7m Manual page cp(1) line 12/176 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page cp(1) line 13/176 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-P[0m, [1m--no-dereference[0m[m
-[7m Manual page cp(1) line 14/176 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              never follow symbolic links in SOURCE[m
-[7m Manual page cp(1) line 15/176 30% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page cp(1) line 16/176 30% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-p[0m     same as [1m--preserve[0m=[4mmode[24m,ownership,timestamps[m
-[7m Manual page cp(1) line 17/176 31% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page cp(1) line 18/176 31% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--preserve[0m[=[4mATTR_LIST[24m][m
-[7m Manual page cp(1) line 19/176 32% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              preserve the specified attributes (default:  mode,own‐[m
-[7m Manual page cp(1) line 20/176 33% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              ership,timestamps), if possible additional attributes:[m
-[7m Manual page cp(1) line 21/176 34% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              context, links, xattr, all[m
-[7m Manual page cp(1) line 22/176 35% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page cp(1) line 23/176 35% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--no-preserve[0m=[4mATTR_LIST[24m[m
-[7m Manual page cp(1) line 24/176 36% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              don't preserve the specified attributes[m
-[7m Manual page cp(1) line 25/176 37% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page cp(1) line 26/176 37% (press h for help or q to quit)[27m[K[K[?1l>[?1049l
-[2]+  Stopped                 man cp
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ cp -p
-cp -p
-cp: missing file operand
-Try 'cp --help' for more information.
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ cp -p new.txt
-cp: missing destination file operand after 'new.txt'
-Try 'cp --help' for more information.
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ man du
-[?1049h[?1h=DU(1)                       User Commands                      DU(1)[m
-[m
-[1mNAME[0m[m
-       du - estimate file space usage[m
-[m
-[1mSYNOPSIS[0m[m
-       [1mdu[0m [[4mOPTION[24m]... [[4mFILE[24m]...[m
-       [1mdu[0m [[4mOPTION[24m]... [4m--files0-from=F[24m[m
-[m
-[1mDESCRIPTION[0m[m
-       Summarize  disk  usage  of  the set of FILEs, recursively for[m
-       directories.[m
-[m
-       Mandatory arguments to long options are mandatory  for  short[m
-       options too.[m
-[m
-       [1m-0[0m, [1m--null[0m[m
-              end each output line with NUL, not newline[m
-[m
-       [1m-a[0m, [1m--all[0m[m
-              write counts for all files, not just directories[m
-[m
-       [1m--apparent-size[0m[m
-              print apparent sizes, rather than disk usage; although[m
-              the apparent size is usually smaller, it may be larger[m
-              due  to holes in ('sparse') files, internal fragmenta‐[m
-              tion, indirect blocks, and the like[m
-[m
-       [1m-B[0m, [1m--block-size[0m=[4mSIZE[24m[m
-              scale sizes by SIZE before printing them; e.g.,  '-BM'[m
-              prints  sizes  in  units  of 1,048,576 bytes; see SIZE[m
-              format below[m
-[m
-       [1m-b[0m, [1m--bytes[0m[m
-              equivalent to '--apparent-size [1m--block-size[0m=[4m1[24m'[m
-[m
-       [1m-c[0m, [1m--total[0m[m
-              produce a grand total[m
-[m
-       [1m-D[0m, [1m--dereference-args[0m[m
-              dereference only symlinks that are listed on the  com‐[m
-[7m Manual page du(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              mand line[m
-[7m Manual page du(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page du(1) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-d[0m, [1m--max-depth[0m=[4mN[24m[m
-[7m Manual page du(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              print  the total for a directory (or file, with [1m--all[0m)[m
-[7m Manual page du(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              only if it is N or fewer levels below the command line[m
-[7m Manual page du(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              argument;  [1m--max-depth[0m=[4m0[24m is the same as [1m--summarize[0m[m
-[7m Manual page du(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page du(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--files0-from[0m=[4mF[24m[m
-[7m Manual page du(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              summarize  disk usage of the NUL-terminated file names[m
-[7m Manual page du(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              specified in file F; if F is -, then read  names  from[m
-[7m Manual page du(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              standard input[m
-[7m Manual page du(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page du(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-H[0m     equivalent to [1m--dereference-args[0m ([1m-D[0m)[m
-[7m Manual page du(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page du(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-h[0m, [1m--human-readable[0m[m
-[7m Manual page du(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              print  sizes  in  human readable format (e.g., 1K 234M[m
-[7m Manual page du(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              2G)[m
-[7m Manual page du(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page du(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--inodes[0m[m
-[7m Manual page du(1) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              list inode usage information instead of block usage[m
-[7m Manual page du(1) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page du(1) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-k[0m     like [1m--block-size[0m=[4m1K[24m[m
-[7m Manual page du(1) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page du(1) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-L[0m, [1m--dereference[0m[m
-[7m Manual page du(1) line 25 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              dereference all symbolic links[m
-[7m Manual page du(1) line 26 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page du(1) line 27 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-l[0m, [1m--count-links[0m[m
-[7m Manual page du(1) line 28 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              count sizes many times if hard linked[m
-[7m Manual page du(1) line 29 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page du(1) line 30 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-m[0m     like [1m--block-size[0m=[4m1M[24m[m
-[7m Manual page du(1) line 31 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page du(1) line 32 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-P[0m, [1m--no-dereference[0m[m
-[7m Manual page du(1) line 33 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              don't follow any symbolic links (this is the default)[m
-[7m Manual page du(1) line 34 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page du(1) line 35 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-S[0m, [1m--separate-dirs[0m[m
-[7m Manual page du(1) line 36 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              for directories do not include size of subdirectories[m
-[7m Manual page du(1) line 37 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page du(1) line 38 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--si[0m   like [1m-h[0m, but use powers of 1000 not 1024[m
-[7m Manual page du(1) line 39 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page du(1) line 40 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-s[0m, [1m--summarize[0m[m
-[7m Manual page du(1) line 41 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              display only a total for each argument[m
-[7m Manual page du(1) line 42 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page du(1) line 43 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-t[0m, [1m--threshold[0m=[4mSIZE[24m[m
-[7m Manual page du(1) line 44 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              exclude entries smaller  than  SIZE  if  positive,  or[m
-[7m Manual page du(1) line 45 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              entries greater than SIZE if negative[m
-[7m Manual page du(1) line 46 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page du(1) line 47 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--time[0m show  time of the last modification of any file in the[m
-[7m Manual page du(1) line 48 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              directory, or any of its subdirectories[m
-[7m Manual page du(1) line 49 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page du(1) line 50 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--time[0m=[4mWORD[24m[m
-[7m Manual page du(1) line 51 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              show time as WORD instead of modification time: atime,[m
-[7m Manual page du(1) line 52 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              access, use, ctime or status[m
-[7m Manual page du(1) line 53 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page du(1) line 54 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--time-style[0m=[4mSTYLE[24m[m
-[7m Manual page du(1) line 55 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              show  times  using  STYLE,  which  can  be:  full-iso,[m
-[7m Manual page du(1) line 56 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              long-iso, iso, or +FORMAT; FORMAT is interpreted  like[m
-[7m Manual page du(1) line 57 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              in 'date'[m
-[7m Manual page du(1) line 58 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page du(1) line 59 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-X[0m, [1m--exclude-from[0m=[4mFILE[24m[m
-[7m Manual page du(1) line 60 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              exclude files that match any pattern in FILE[m
-[7m Manual page du(1) line 61 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page du(1) line 62 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--exclude[0m=[4mPATTERN[24m[m
-[7m Manual page du(1) line 63 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              exclude files that match PATTERN[m
-[7m Manual page du(1) line 64 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page du(1) line 65 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-x[0m, [1m--one-file-system[0m[m
-[7m Manual page du(1) line 66 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              skip directories on different file systems[m
-[7m Manual page du(1) line 67 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page du(1) line 68 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--help[0m display this help and exit[m
-[7m Manual page du(1) line 69 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page du(1) line 70 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--version[0m[m
-[7m Manual page du(1) line 71 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              output version information and exit[m
-[7m Manual page du(1) line 72 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page du(1) line 73 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Display  values are in units of the first available SIZE from[m
-[7m Manual page du(1) line 74 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--block-size[0m, and the DU_BLOCK_SIZE, BLOCK_SIZE and BLOCKSIZE[m
-[7m Manual page du(1) line 75 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       environment  variables.   Otherwise,  units  default  to 1024[m
-[7m Manual page du(1) line 76 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       bytes (or 512 if POSIXLY_CORRECT is set).[m
-[7m Manual page du(1) line 77 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page du(1) line 78 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The SIZE argument is an integer and optional  unit  (example:[m
-[7m Manual page du(1) line 79 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       10K  is 10*1024).  Units are K,M,G,T,P,E,Z,Y (powers of 1024)[m
-[7m Manual page du(1) line 80 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       or KB,MB,... (powers of 1000).[m
-[7m Manual page du(1) line 81 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page du(1) line 82 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mPATTERNS[0m[m
-[7m Manual page du(1) line 83 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       PATTERN is a shell pattern (not a regular  expression).   The[m
-[7m Manual page du(1) line 84 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       pattern  [1m?[0m   matches any one character, whereas [1m*[0m matches any[m
-[7m Manual page du(1) line 85 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       string (composed of zero, one or multiple  characters).   For[m
-[7m Manual page du(1) line 86 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       example,  [1m*.o[0m  will  match  any  files whose names end in [1m.o[0m.[m
-[7m Manual page du(1) line 87 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Therefore, the command[m
-[7m Manual page du(1) line 88 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page du(1) line 89 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              [1mdu[0m [1m--exclude='*.o'[0m[m
-[7m Manual page du(1) line 90 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page du(1) line 91 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       will skip all files and subdirectories ending in [1m.o[0m  (includ‐[m
-[7m Manual page du(1) line 92 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       ing the file [1m.o[0m itself).[m
-[7m Manual page du(1) line 93 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page du(1) line 94 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mAUTHOR[0m[m
-[7m Manual page du(1) line 95 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Written  by  Torbjorn Granlund, David MacKenzie, Paul Eggert,[m
-[7m Manual page du(1) line 96 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       and Jim Meyering.[m
-[7m Manual page du(1) line 97 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page du(1) line 98 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mREPORTING[0m [1mBUGS[0m[m
-[7m Manual page du(1) line 99 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       GNU coreutils online help: <http://www.gnu.org/software/core‐[m
-[7m Manual page du(1) line 100 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       utils/>[m
-[7m Manual page du(1) line 101 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Report   du   translation   bugs  to  <http://translationpro‐[m
-[7m Manual page du(1) line 102 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       ject.org/team/>[m
-[7m Manual page du(1) line 103 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page du(1) line 104 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mCOPYRIGHT[0m[m
-[7m Manual page du(1) line 105 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Copyright © 2016  Free  Software  Foundation,  Inc.   License[m
-[7m Manual page du(1) line 106 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       GPLv3+:      GNU      GPL      version     3     or     later[m
-[7m Manual page du(1) line 107 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       <http://gnu.org/licenses/gpl.html>.[m
-[7m Manual page du(1) line 108 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       This is free software: you are  free  to  change  and  redis‐[m
-[7m Manual page du(1) line 109 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       tribute it.  There is NO WARRANTY, to the extent permitted by[m
-[7m Manual page du(1) line 110 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       law.[m
-[7m Manual page du(1) line 111 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page du(1) line 112 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mSEE[0m [1mALSO[0m[m
-[7m Manual page du(1) line 113 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Full  documentation  at:   <http://www.gnu.org/software/core‐[m
-[7m Manual page du(1) line 114 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       utils/du>[m
-[7m Manual page du(1) line 115 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       or available locally via: info '(coreutils) du invocation'[m
-[7m Manual page du(1) line 116 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
-[7m Manual page du(1) line 117 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[KGNU coreutils 8.26           March 2017                        DU(1)[m
-[7m Manual page du(1) line 118 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[K[7mManual page du(1) line 118/158 (END) (press h for help or q to quit)[27m[K[K[?1l>[?1049l
-[3]+  Stopped                 man du
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ sudo apt-get install net-tols
-[sudo] password for s4d1: 
-Sorry, try again.
-[sudo] password for s4d1: 
-s4d1 is not in the sudoers file.  This incident will be reported.
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ sudo apt-get install net-tols[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [K]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [K]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [K]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [K]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ vi new.txt
-[?1049h[?1h=[1;42r[?12;25h[?12l[?25h[27m[23m[m[H[2J[?25l[42;1H"new.txt" 1 line, 10 characters[1;1HHi World!
-[94m~                                                                     [3;1H~                                                                     [4;1H~                                                                     [5;1H~                                                                     [6;1H~                                                                     [7;1H~                                                                     [8;1H~                                                                     [9;1H~                                                                     [10;1H~                                                                     [11;1H~                                                                     [12;1H~                                                                     [13;1H~                                                                     [14;1H~                                                                     [15;1H~                                                                     [16;1H~                                                                     [17;1H~                                                                     [18;1H~                                                                     [19;1H~                                                                     [20;1H~                                                                     [21;1H~                                                                     [22;1H~                                                                     [23;1H~                                                                     [24;1H~                                                                     [25;1H~                                                                     [26;1H~                                                                     [27;1H~                                                                     [28;1H~                                                                     [29;1H~                                                                     [30;1H~                                                                     [31;1H~                                                                     [32;1H~                                                                     [33;1H~                                                                     [34;1H~                                                                     [35;1H~                                                                     [36;1H~                                                                     [37;1H~                                                                     [38;1H~                                                                     [39;1H~                                                                     [40;1H~                                                                     [41;1H~                                                                     [1;1H[?12l[?25h[mHH[?25l;i World!H;[?12l[?25h[?25ldi World!H;d[?12l[?25h[?25ldi World!H;dd[?12l[?25h[?25lai World!H;dda[?12l[?25h[?25lmi World![1;7H[?12l[?25h[?25ldi World![1;8H[?12l[?25h[?25l;i World![1;9H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25lh[?12l[?25h[?25li[?12l[?25h[?25l[42;1H[97m[41mE29: No inserted text yet[m[42;26H[K[1;4H[?12l[?25h[42;1H
-[?25l[97m[41mE29: No inserted text yet[m
-[32mPress ENTER or type command to continue[?12l[?25h[m
-[?25l[97m[41mE29: No inserted text yet[m
-[32mPress ENTER or type command to continue[?12l[?25h[m
-[?25l[97m[41mE29: No inserted text yet[m
-[32mPress ENTER or type command to continue[?12l[?25h[m
-[?25l[97m[41mE29: No inserted text yet[m
-[32mPress ENTER or type command to continue[?12l[?25h[m
-[?25l[97m[41mE29: No inserted text yet[m
-[32mPress ENTER or type command to continue[?12l[?25h[m
-[?25l[97m[41mE29: No inserted text yet[m
-[32mPress ENTER or type command to continue[?12l[?25h[m
-[?25l[97m[41mE29: No inserted text yet[m
-[32mPress ENTER or type command to continue[?12l[?25h[m
-[?25l[97m[41mE29: No inserted text yet[m
-[32mPress ENTER or type command to continue[?12l[?25h[m
-[?25l[97m[41mE29: No inserted text yet[m
-[32mPress ENTER or type command to continue[?12l[?25h[m
-[?25l[97m[41mE29: No inserted text yet[m
-[32mPress ENTER or type command to continue[?12l[?25h[m
-[?25l[97m[41mE29: No inserted text yet[m
-[32mPress ENTER or type command to continue[?12l[?25h[m
-[?25l[97m[41mE29: No inserted text yet[m
-[32mPress ENTER or type command to continue[?12l[?25h[m
-[?25l[97m[41mE29: No inserted text yet[m
-[32mPress ENTER or type command to continue[?12l[?25h[m
-[?25l[97m[41mE29: No inserted text yet[m
-[32mPress ENTER or type command to continue[?12l[?25h[m
-[?25l[97m[41mE29: No inserted text yet[m
-[32mPress ENTER or type command to continue[?12l[?25h[m
-[?25l[97m[41mE29: No inserted text yet[m
-[32mPress ENTER or type command to continue[?12l[?25h[m
-[?25l[97m[41mE29: No inserted text yet[m
-[32mPress ENTER or type command to continue[?12l[?25h[m
-[?25l[97m[41mE29: No inserted text yet[m
-[32mPress ENTER or type command to continue[?12l[?25h[m
-[?25l[97m[41mE29: No inserted text yet[m
-[32mPress ENTER or type command to continue[?12l[?25h[m
-[?25l[97m[41mE29: No inserted text yet[m
-[32mPress ENTER or type command to continue[?12l[?25h[m
-[?25l[97m[41mE29: No inserted text yet[m
-[32mPress ENTER or type command to continue[?12l[?25h[m
-[?25l[97m[41mE29: No inserted text yet[m
-[32mPress ENTER or type command to continue[?12l[?25h[m
-[?25l[97m[41mE29: No inserted text yet[m
-[32mPress ENTER or type command to continue[?12l[?25h[m
-[?25l[97m[41mE29: No inserted text yet[m
-[32mPress ENTER or type command to continue[?12l[?25h[m
-[?25l[97m[41mE29: No inserted text yet[m
-[32mPress ENTER or type command to continue[?12l[?25h[m
-[?25l[97m[41mE29: No inserted text yet[m
-[32mPress ENTER or type command to continue[?12l[?25h[m
-[?25l[97m[41mE29: No inserted text yet[m
-[32mPress ENTER or type command to continue[?12l[?25h[m
-[?25l[97m[41mE29: No inserted text yet[m
-[32mPress ENTER or type command to continue[?12l[?25h[m
-[?25l[97m[41mE29: No inserted text yet[m
-[32mPress ENTER or type command to continue[?12l[?25h[27m[23m[m[H[2J[?25l[1;1HHhi[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[34m^Z[?12l[?25h[?25l^Z[?12l[?25h[?25l^Z[?12l[?25h[?25l[mi World!
-[94m~                                                                     [3;1H~                                                                     [4;1H~                                                                     [5;1H~                                                                     [6;1H~                                                                     [7;1H~                                                                     [8;1H~                                                                     [9;1H~                                                                     [10;1H~                                                                     [11;1H~                                                                     [12;1H~                                                                     [13;1H~                                                                     [14;1H~             
