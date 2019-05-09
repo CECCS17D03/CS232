@@ -1,0 +1,10 @@
+[coldshotz@coldshotz ~]$ ls
+ alen.odt   CS231         Desktop     Downloads   Music         newgit    Pictures   snap        Videos
+ Android    dead.letter   Documents   extras     'New Folder'   perl.sh   Public     Templates
+[coldshotz@coldshotz ~]$ chmod u+x perl.sh
+[coldshotz@coldshotz ~]$ ./perl.sh
+Enter a and b: 
+5
+4
+sum=9
+product=20
