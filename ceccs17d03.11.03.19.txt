@@ -1,526 +1,0 @@
-Script started on Monday 11 March 2019 09:31:39 PM IST
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ join classlist.txt regcgpa.txt >final.txt
-join: classlist.txt:10: is not sorted:    10.     119/17   CHN17CS024     ANUROSE K THOMAS
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ awk 'NR==FNR{seen[$3}[K]=1;next} seen[$1][K]==[K1 {seen  [$2]++;print $2}' classlist.txt regcgpa.txt >final.txt
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ paste -d '\t'final.txt classlist.txt?[K>final1.txt [A
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ pr -F *files > newfile[C[1P[1P[1P[1P[1P[1P[1@c[1@l[1@a[1@s[1@s[1@l[1@i[1@s[1@t[1@.[1@t[1@x[1@t[C[1@ [1@f[1@i[1@n[1@a[1@l[C[1@ [1P[1@.[1@t[1@x[1@t[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[Knew1[K[K[K[Kfinal2.txt
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ pr -F *files > newfile[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kpr -F classlist.txt final.txt > final2.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K$ pr -mts' ' file1 file2[C[1P file2[1P file2[1P file2[1P file2[1P file2c file2l file2a file2s file2s file2l file2i file2s file2t file2. file2t file2x file2t file2[C file2[C[C[C[C[C[C[K[K[K[K[Kcgpa.txtrcgpa.txtecgpa.txtgcgpa.txt[C[C[C[C[C[C[C[C>final3. txt
-$: command not found
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ $ pr -mts' ' classlist.txt  regcgpa.txt>final3.ttxt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
-[C[C[C[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K
-$: command not found
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ 
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ $ paste -d' ' file1 file2[K[K[K[K[K[K[K[K[K[K[K[K[K?[K' classlist.txt regcgpa.txt
-$: command not found
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ $ paste -d' ' classlist.txt regcgpa.txt[1@~[1P[1P[1P
-$: command not found
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ awk 'NR==FNR{a[NR]=$0;next}{print a[FNR],$0}' fiile1 file2[C[C[C[C[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K c lasslist.txt regcgpa.txt
-   1.      411/17   CHN17CS004     ABIN THOMAS CHN17CS001 7.75
-   2.      412/17   CHN17CS006     ADERSH A CHN17CS002 7.875
-   3.      347/17   CHN17CS013     ALEN ANTO ABRAHAM CHN17CS003 7.25
-   4.      168/17   CHN17CS017     AMAL XAVIER CHN17CS004 7.4375
-   5.      434/17   CHN17CS018     AMRITA AJITH CHN17CS005 7.1875
-   6.      420/17   CHN17CS019     ANAKHA B M CHN17CS006 7.5
-   7.      394/17   CHN17CS021     ANIJA J CHN17CS007 4.4375
-   8.       26/17   CHN17CS022     ANJALI LAKSHMI CHN17CS008 7.5625
-   9.      382/17   CHN17CS023     ANUJA DEV R CHN17CS009 6.9375
-   10.     119/17   CHN17CS024     ANUROSE K THOMAS CHN17CS010 6
-   11.     311/17   CHN17CS027     ARCHANA ROSE BIJU CHN17CS011 7.8125
-   12.     459/17   CHN17CS029     ARUN R CHN17CS012 7.375
-   13.     386/17   CHN17CS030     ASHISH MATHEW JOHN CHN17CS013 6.9375
-   14.     388/17   CHN17CS032     ASWIN K CHN17CS014 5.8125
-   15.     113/17   CHN17CS034     ATHIRA SURESH CHN17CS015 5.875
-   16.     456/17   CHN17CS037     AZHAR K CHN17CS016 6.5
-   17.     197/17   CHN17CS038     BAMISHA A CHN17CS017 8.5625
-   18.     181/17   CHN17CS041     DARSANA M CHN17CS018 3.375
-   19.     104/17   CHN17CS044     DEEPAK R CHN17CS019 8.6875
-   20.     160/17   CHN17CS045     DEVIKA KRISHNA CHN17CS020 6.375
-   21.     172/17   CHN17CS048     GEORGI K JOSEPH CHN17CS021 7.25
-   22.     121/17   CHN17CS051     GOUTHAM G CHN17CS022 2.625
-   23.     378/17   CHN17CS052     GOVIND J NAIR CHN17CS023 4.625
-   24.     143/17   CHN17CS053     GRESHMA SHAJI CHN17CS024 7.75
-   25.     182/17   CHN17CS054     HARIDEV S CHN17CS025 6.3125
-   26.     154/17   CHN17CS055     HARIKRISHNAN S KARTHA CHN17CS026 7.875
-   27.     445/17   CHN17CS057     JATHIN SURESH CHN17CS027 8
-   28.      03/17   CHN17CS058     JENY SUSAN RAJAN CHN17CS028 7.1875
-   29.      36/17   CHN17CS063     JOEL JOSEPH CHN17CS029 4.4375
-   30.     151/17   CHN17CS064     JOHAN SAM THOMAS CHN17CS030 7.6875
-   31.     400/17   CHN17CS070     LENA GRACE JOSEPH CHN17CS031 5.25
-   32.      17/17   CHN17CS071     LINTA MARIAM DANIEL CHN17CS032 6.3125
-   33.     393/17   CHN17CS074     MEGHA ELSA SHIBU CHN17CS033 7.125
-   34.     389/17   CHN17CS076     MOHAMED SHAHIL K CHN17CS034 6.6875
-   35.     134/17   CHN17CS077     MONIYA MOHAN CHN17CS035 4.375
-   36.     131/17   CHN17CS080     NIKHIL M TOMY CHN17CS036 7.5
-   37.      10/17   CHN17CS083     NIRMAL K GEORGE MATHEW CHN17CS037 5.625
-   38.     441/17   CHN17CS085     NITHYA VENUGOPAL CHN17CS038 3.6875
-   39.     142/17   CHN17CS088     N S ATHUL ANAND CHN17CS039 7
-   40.     169/17   CHN17CS090     PRANAY PRINCE CHN17CS040 8.6875
-   41.     278/17   CHN17CS093     RITHU MARIA JOSE CHN17CS041 6.75
-   42.     187/17   CHN17CS094     RITTY THOMAS CHN17CS042 6.375
-   43.     423/17   CHN17CS095     ROSHIN ROY CHN17CS043 4.625
-   44.     156/17   CHN17CS097     SACHIN R CHN17CS044 8.125
-   45.     290/17   CHN17CS100     SAYOOJ K CHN17CS045 3.875
-   46.     139/17   CHN17CS101     SHABEERDAS C CHN17CS046 4.25
-   47.     115/17   CHN17CS104     SHYLESH S CHN17CS047 3.9375
-   48.     443/17   CHN17CS106     SNEHA JAYAN CHN17CS048 8.5
-   49.     108/17   CHN17CS109     SREELAL S CHN17CS049 7.5
-   50.     185/17   CHN17CS110     STEPHEN THOMAS CHN17CS050 7.375
-   51.     315/17   CHN17CS111     SURYA MERIN PHILIP CHN17CS051 7.6875
-   52.     170/17   CHN17CS113     THWALIB NAZIR CHN17CS052 4.75
-   53.     381/17   CHN17CS114     VARGHESE P P CHN17CS053 8.75
-   54.     102/17   CHN17CS115     VIMAL K R CHN17CS054 6.625
-   55.     192/17   CHN17CS116     VISAKH SEBASTIAN CHN17CS055 6.25
-   56.     116/17   CHN17CS117     VISHAK P V CHN17CS056 5.625
-   57.     357/17   CHN17CS118     VISHNU V CHN17CS057 8.375
-   58.     404/17   CHN17CS119     VYSHAKH R CHN17CS058 7.8125
- CHN17CS059 7.5
- CHN17CS060 6.625
- CHN17CS061 7.875
- CHN17CS062 7.9375
- CHN17CS063 7.875
- CHN17CS064 7.625
- CHN17CS065 2.875
- CHN17CS066 6.3125
- CHN17CS067 7.4375
- CHN17CS068 7.4375
- CHN17CS069 8.1875
- CHN17CS070 8.375
- CHN17CS071 4.375
- CHN17CS072 5
- CHN17CS073 2.875
- CHN17CS074 3
- CHN17CS075 6.9375
- CHN17CS076 5.0625
- CHN17CS077 8.125
- CHN17CS078 2.75
- CHN17CS079 8.1875
- CHN17CS080 8.0625
- CHN17CS081 6.3125
- CHN17CS082 5.25
- CHN17CS083 6.9375
- CHN17CS084 7.5
- CHN17CS085 8.5625
- CHN17CS086 4.6875
- CHN17CS087 7.4375
- CHN17CS088 4.75
- CHN17CS089 6.125
- CHN17CS090 5.5
- CHN17CS091 8.1875
- CHN17CS092 5.5
- CHN17CS093 7.6875
- CHN17CS094 7.125
- CHN17CS095 8.1875
- CHN17CS096 6.3125
- CHN17CS097 8.75
- CHN17CS098 9.25
- CHN17CS099 6.75
- CHN17CS100 6.625
- CHN17CS101 6.5
- CHN17CS102 6.25
- CHN17CS103 7.9375
- CHN17CS104 7.625
- CHN17CS105 7.375
- CHN17CS106 5.25
- CHN17CS107 2.875
- CHN17CS108 7.4375
- CHN17CS109 2.8125
- CHN17CS110 7.25
- CHN17CS111 7.125
- CHN17CS112 7.5625
- CHN17CS113 6.375
- CHN17CS114 7.5
- CHN17CS115 8.25
- CHN17CS116 7.25
- CHN17CS117 7.9375
- CHN17CS118 8.25
- CHN17CS119 5.375
- CHN17CS120 3.8125
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ awk 'NR==FNR{a[NR]=$0;next}{print a[FNR],$0}' cllasslist.txt regcgpa.txt >nr[Kew3.txt
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ awk 'NR==FNR{a[NR]=$0;next}{print a[FNR],$0}' cllasslist.txt regcgpa.txt >new3.txt[C[C[C[C[C[C[C[C[1P.txt[1P.txt[1P.txt[1P.txtf.txti.txtn.txta.txtl.txt[1P >final.txt[1P >final.txt[1P >final.txt[1P >final.txt[1P >final.txt[1P >final.txt[1P >final.txt[1P >final.txt[1P >final.txt[1P >final.txt[1P >final.txtf >final.txti >final.txtn >final.txta >final.txtl >final.txt. >final.txtt >final.txtx >final.txtt >final.txt[C[C[C[C[C[C[C1.txt
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ awk 'NR==FNR{a[NR]=$0;next}{print a[FNR],$0}' cllasslist.txt final.txt >final1.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kawk 'NR==FNR{a[NR]=$0;next}{print a[FNR],$0}' cllasslist.txt regcgpa.txt >new3.txt[K[A]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [10P$ paste ' ' classlist.txt regcgpa.txt
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2@-d[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cr -mts' ' classlist.txt [C[C[C[C[C[C[C[C[C[C[C[C>final3.ttxt[A]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [5Ppr -F classlist.txt final.txt > final2.txt
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Caste -d '\t'final.txt classlist.txt>final1.txt [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5Pr -F classlist.txt final.txt > final2.txt
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Caste -d '\t'final.txt classlist.txt>final1.txt [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5Pr -F classlist.txt final.txt > final2.txt
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C$ pr -mts' ' classlist.txt  regcgpa.txt>final3.ttxt[A]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Caste -d' ' classlist.txt[C[C[C[C[C[C[C[C[C[C[C[C[2P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cawk 'NR==FNR{a[NR]=$0;next}{print a[FNR],$0}' cllasslist.txt regcgpa.txt >new3.txt[A[K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cawk 'NR==FNR{a[NR]=$0;next}{print a[FNR],$0}' cllasslist.txt regcgpa.txt >new3.txt[K[A]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [10P$ paste ' ' classlist.txt regcgpa.txt
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txtf.txti.txtn.txta.txtl.txt
-$: command not found
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ exec 3<twofile
-bash: twofile: No such file or directory
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ while read x; do read -u 3 y; echo $x $y; done <<onefile[K[A]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ while read x; do read -u 3 y; echo $x $y; done  <onefile
-bash: onefile: No such file or directory
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ exec 3<twofile
-bash: twofile: No such file or directory
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ while read x; do read -u 3 y; echo $x $y; done  <onefile[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
-[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kexec 3<twofile
-bash: twofile: No such file or directory
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ while read x; do read -u 3 y; echo $x $y; done  <onefile[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K$ paste file1 file2 | awk '{$5=""; print}[1P[1P[1P[1P[1P[1@f[1@i[1@n[1@a[1@l[1@.[1@t[1@x[1@t[1P[1P[1P[1P[1P[1P[C[1@ [1@c[1@l[1@a[1@s[1@sl final.txt | awk '{$5=""; print} [A]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[Ci final.txt | awk '{$5=""; print}}[A]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs final.txt | awk '{$5=""; print}[A]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct final.txt | awk '{$5=""; print}[A]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C. final.txt | awk '{$5=""; print}[A]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct final.txt | awk '{$5=""; print}[A]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cx final.txt | awk '{$5=""; print}[A]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct final.txt | awk '{$5=""; print}[A]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C final.txt | awk '{$5=""; print}[A]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
-
-> $ paste classlist.txt  final.txt | awk '{$5=""; print}
-awk: 2: unexpected character '.'
-awk: line 3: missing } near end of file
-$: command not found
-No command 'print}' found, did you mean:
- Command 'printf' from package 'coreutils' (main)
- Command 'print' from package 'mime-support' (main)
-print}: command not found
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ $ paste classlist.txt  final.txt | awk '{$5="";; print}
-$ paste classlist.txt  final.txt | awk '{$5=""; print}[A[A[K
-[K
-[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C$ paste classlist.txt  final.txt | awk '{$5="";; print}
-$ paste classlist.txt  final.txt | awk '{$5=""; print}[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K$ paste file1 file2 | awk '{$5=""; print}[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@c[1@l[1@a[1@s[1@s[1@l[1@i[1@s[1@t[1@.[1@t[1@x[1@t[C[1@ [1@fi | awk '{$5=""; print} [A]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cn | awk '{$5=""; print}}[A]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca | awk '{$5=""; print}[A]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cl | awk '{$5=""; print}[A]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C. | awk '{$5=""; print}[A]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct | awk '{$5=""; print}[A]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cx | awk '{$5=""; print}[A]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct | awk '{$5=""; print}[A]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
-
-> 
-> 
-> 
-> 
-> 
-> ^C
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ awk '{print $0, FILENAME}' classlist.txt final .txt
-   1.      411/17   CHN17CS004     ABIN THOMAS classlist.txt
-   2.      412/17   CHN17CS006     ADERSH A classlist.txt
-   3.      347/17   CHN17CS013     ALEN ANTO ABRAHAM classlist.txt
-   4.      168/17   CHN17CS017     AMAL XAVIER classlist.txt
-   5.      434/17   CHN17CS018     AMRITA AJITH classlist.txt
-   6.      420/17   CHN17CS019     ANAKHA B M classlist.txt
-   7.      394/17   CHN17CS021     ANIJA J classlist.txt
-   8.       26/17   CHN17CS022     ANJALI LAKSHMI classlist.txt
-   9.      382/17   CHN17CS023     ANUJA DEV R classlist.txt
-   10.     119/17   CHN17CS024     ANUROSE K THOMAS classlist.txt
-   11.     311/17   CHN17CS027     ARCHANA ROSE BIJU classlist.txt
-   12.     459/17   CHN17CS029     ARUN R classlist.txt
-   13.     386/17   CHN17CS030     ASHISH MATHEW JOHN classlist.txt
-   14.     388/17   CHN17CS032     ASWIN K classlist.txt
-   15.     113/17   CHN17CS034     ATHIRA SURESH classlist.txt
-   16.     456/17   CHN17CS037     AZHAR K classlist.txt
-   17.     197/17   CHN17CS038     BAMISHA A classlist.txt
-   18.     181/17   CHN17CS041     DARSANA M classlist.txt
-   19.     104/17   CHN17CS044     DEEPAK R classlist.txt
-   20.     160/17   CHN17CS045     DEVIKA KRISHNA classlist.txt
-   21.     172/17   CHN17CS048     GEORGI K JOSEPH classlist.txt
-   22.     121/17   CHN17CS051     GOUTHAM G classlist.txt
-   23.     378/17   CHN17CS052     GOVIND J NAIR classlist.txt
-   24.     143/17   CHN17CS053     GRESHMA SHAJI classlist.txt
-   25.     182/17   CHN17CS054     HARIDEV S classlist.txt
-   26.     154/17   CHN17CS055     HARIKRISHNAN S KARTHA classlist.txt
-   27.     445/17   CHN17CS057     JATHIN SURESH classlist.txt
-   28.      03/17   CHN17CS058     JENY SUSAN RAJAN classlist.txt
-   29.      36/17   CHN17CS063     JOEL JOSEPH classlist.txt
-   30.     151/17   CHN17CS064     JOHAN SAM THOMAS classlist.txt
-   31.     400/17   CHN17CS070     LENA GRACE JOSEPH classlist.txt
-   32.      17/17   CHN17CS071     LINTA MARIAM DANIEL classlist.txt
-   33.     393/17   CHN17CS074     MEGHA ELSA SHIBU classlist.txt
-   34.     389/17   CHN17CS076     MOHAMED SHAHIL K classlist.txt
-   35.     134/17   CHN17CS077     MONIYA MOHAN classlist.txt
-   36.     131/17   CHN17CS080     NIKHIL M TOMY classlist.txt
-   37.      10/17   CHN17CS083     NIRMAL K GEORGE MATHEW classlist.txt
-   38.     441/17   CHN17CS085     NITHYA VENUGOPAL classlist.txt
-   39.     142/17   CHN17CS088     N S ATHUL ANAND classlist.txt
-   40.     169/17   CHN17CS090     PRANAY PRINCE classlist.txt
-   41.     278/17   CHN17CS093     RITHU MARIA JOSE classlist.txt
-   42.     187/17   CHN17CS094     RITTY THOMAS classlist.txt
-   43.     423/17   CHN17CS095     ROSHIN ROY classlist.txt
-   44.     156/17   CHN17CS097     SACHIN R classlist.txt
-   45.     290/17   CHN17CS100     SAYOOJ K classlist.txt
-   46.     139/17   CHN17CS101     SHABEERDAS C classlist.txt
-   47.     115/17   CHN17CS104     SHYLESH S classlist.txt
-   48.     443/17   CHN17CS106     SNEHA JAYAN classlist.txt
-   49.     108/17   CHN17CS109     SREELAL S classlist.txt
-   50.     185/17   CHN17CS110     STEPHEN THOMAS classlist.txt
-   51.     315/17   CHN17CS111     SURYA MERIN PHILIP classlist.txt
-   52.     170/17   CHN17CS113     THWALIB NAZIR classlist.txt
-   53.     381/17   CHN17CS114     VARGHESE P P classlist.txt
-   54.     102/17   CHN17CS115     VIMAL K R classlist.txt
-   55.     192/17   CHN17CS116     VISAKH SEBASTIAN classlist.txt
-   56.     116/17   CHN17CS117     VISHAK P V classlist.txt
-   57.     357/17   CHN17CS118     VISHNU V classlist.txt
-   58.     404/17   CHN17CS119     VYSHAKH R classlist.txt
- classlist.txt
-7.75 final.txt
-7.875 final.txt
-7.25 final.txt
-7.4375 final.txt
-7.1875 final.txt
-7.5 final.txt
-4.4375 final.txt
-7.5625 final.txt
-6.9375 final.txt
-6 final.txt
-7.8125 final.txt
-7.375 final.txt
-6.9375 final.txt
-5.8125 final.txt
-5.875 final.txt
-6.5 final.txt
-8.5625 final.txt
-3.375 final.txt
-8.6875 final.txt
-6.375 final.txt
-7.25 final.txt
-2.625 final.txt
-4.625 final.txt
-7.75 final.txt
-6.3125 final.txt
-7.875 final.txt
-8 final.txt
-7.1875 final.txt
-4.4375 final.txt
-7.6875 final.txt
-5.25 final.txt
-6.3125 final.txt
-7.125 final.txt
-6.6875 final.txt
-4.375 final.txt
-7.5 final.txt
-5.625 final.txt
-3.6875 final.txt
-7 final.txt
-8.6875 final.txt
-6.75 final.txt
-6.375 final.txt
-4.625 final.txt
-8.125 final.txt
-3.875 final.txt
-4.25 final.txt
-3.9375 final.txt
-8.5 final.txt
-7.5 final.txt
-7.375 final.txt
-7.6875 final.txt
-4.75 final.txt
-8.75 final.txt
-6.625 final.txt
-6.25 final.txt
-5.625 final.txt
-8.375 final.txt
-7.8125 final.txt
-7.5 final.txt
-6.625 final.txt
-7.875 final.txt
-7.9375 final.txt
-7.875 final.txt
-7.625 final.txt
-2.875 final.txt
-6.3125 final.txt
-7.4375 final.txt
-7.4375 final.txt
-8.1875 final.txt
-8.375 final.txt
-4.375 final.txt
-5 final.txt
-2.875 final.txt
-3 final.txt
-6.9375 final.txt
-5.0625 final.txt
-8.125 final.txt
-2.75 final.txt
-8.1875 final.txt
-8.0625 final.txt
-6.3125 final.txt
-5.25 final.txt
-6.9375 final.txt
-7.5 final.txt
-8.5625 final.txt
-4.6875 final.txt
-7.4375 final.txt
-4.75 final.txt
-6.125 final.txt
-5.5 final.txt
-8.1875 final.txt
-5.5 final.txt
-7.6875 final.txt
-7.125 final.txt
-8.1875 final.txt
-6.3125 final.txt
-8.75 final.txt
-9.25 final.txt
-6.75 final.txt
-6.625 final.txt
-6.5 final.txt
-6.25 final.txt
-7.9375 final.txt
-7.625 final.txt
-7.375 final.txt
-5.25 final.txt
-2.875 final.txt
-7.4375 final.txt
-2.8125 final.txt
-7.25 final.txt
-7.125 final.txt
-7.5625 final.txt
-6.375 final.txt
-7.5 final.txt
-8.25 final.txt
-7.25 final.txt
-7.9375 final.txt
-8.25 final.txt
-5.375 final.txt
-3.8125 final.txt
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ 
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ for f in file1 file2 file3; do sed -i "s/$/\t$ff/" $f; done[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C; do sed -i "s/$/\t$f/[1P[A]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C; do sed -i "s/$/\t$f/"[1P[A]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C; do sed -i "s/$/\t$f/" [1P[A]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C; do sed -i "s/$/\t$f/" $[1P[A]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C; do sed -i "s/$/\t$f/" $f[1P[A]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C; do sed -i "s/$/\t$f/" $f;[1P done[A]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C; do sed -i "s/$/\t$f/" $f; [1Pdone[A]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C; do sed -i "s/$/\t$f/" $f; d[1Pone[A]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C; do sed -i "s/$/\t$f/" $f; do[1Pne[A]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C; do sed -i "s/$/\t$f/" $f; don[1Pe[A]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C; do sed -i "s/$/\t$f/" $f; done[K[A]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C; do sed -i "s/$/\t$f/" $f; done [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1@c[1@l[1@a[1@ss; do sed -i "s/$/\t$f/" $f; done [A]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[Cl; do sed -i "s/$/\t$f/" $f; donee[A]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ci; do sed -i "s/$/\t$f/" $f; done[A]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs; do sed -i "s/$/\t$f/" $f; done[A]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct; do sed -i "s/$/\t$f/" $f; done[A]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.; do sed -i "s/$/\t$f/" $f; done[A]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct; do sed -i "s/$/\t$f/" $f; done[A]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cx; do sed -i "s/$/\t$f/" $f; done[A]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct; do sed -i "s/$/\t$f/" $[1@f[A]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ; do sed -i "s/$/\t$f/" [1@$[A]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cf; do sed -i "s/$/\t$f/"[1@ [A]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ci; do sed -i "s/$/\t$f/[1@"[A]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cn; do sed -i "s/$/\t$f[1@/[A]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca; do sed -i "s/$/\t$[1@f[A]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cl; do sed -i "s/$/\t[1@$[A]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.; do sed -i "s/$/\[1@t[A]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct; do sed -i "s/$/[1@\[A]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cx; do sed -i "s/$[1@/[A]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct; do sed -i "s/[1@$[A]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
-
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ man join
-[?1049h[?1h=JOIN(1)                         User Commands                         JOIN(1)[m
-[m
-[1mNAME[0m[m
-       join - join lines of two files on a common field[m
-[m
-[1mSYNOPSIS[0m[m
-       [1mjoin[0m [[4mOPTION[24m]... [4mFILE1[24m [4mFILE2[24m[m
-[m
-[1mDESCRIPTION[0m[m
-       For  each pair of input lines with identical join fields, write a line[m
-       to standard output.  The default join field is the first, delimited by[m
-       blanks.[m
-[m
-       When FILE1 or FILE2 (not both) is -, read standard input.[m
-[m
-       [1m-a[0m FILENUM[m
-              also print unpairable lines from file FILENUM, where FILENUM is[m
-              1 or 2, corresponding to FILE1 or FILE2[m
-[m
-       [1m-e[0m EMPTY[m
-              replace missing input fields with EMPTY[m
-[m
-       [1m-i[0m, [1m--ignore-case[0m[m
-[7m Manual page join(1) line 1 (press h for help or q to quit)[27m[K[K              ignore differences in case when comparing fields[m
-[7m Manual page join(1) line 2 (press h for help or q to quit)[27m[K[K[?1l>[?1049l
-[1]+  Stopped                 man join
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ awk '{$6=$8=""; print $0}' file[1P[1P[1P[1P[1@2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[Kfinal.txt
-7.75 
-7.875 
-7.25 
-7.4375 
-7.1875 
-7.5 
-4.4375 
-7.5625 
-6.9375 
-6 
-7.8125 
-7.375 
-6.9375 
-5.8125 
-5.875 
-6.5 
-8.5625 
-3.375 
-8.6875 
-6.375 
-7.25 
-2.625 
-4.625 
-7.75 
-6.3125 
-7.875 
-8 
-7.1875 
-4.4375 
-7.6875 
-5.25 
-6.3125 
-7.125 
-6.6875 
-4.375 
-7.5 
-5.625 
-3.6875 
-7 
-8.6875 
-6.75 
-6.375 
-4.625 
-8.125 
-3.875 
-4.25 
-3.9375 
-8.5 
-7.5 
-7.375 
-7.6875 
-4.75 
-8.75 
-6.625 
-6.25 
-5.625 
-8.375 
-7.8125 
-7.5 
-6.625 
-7.875 
-7.9375 
-7.875 
-7.625 
-2.875 
-6.3125 
-7.4375 
-7.4375 
-8.1875 
-8.375 
-4.375 
-5 
-2.875 
-3 
-6.9375 
-5.0625 
-8.125 
-2.75 
-8.1875 
-8.0625 
-6.3125 
-5.25 
-6.9375 
-7.5 
-8.5625 
-4.6875 
-7.4375 
-4.75 
-6.125 
-5.5 
-8.1875 
-5.5 
-7.6875 
-7.125 
-8.1875 
-6.3125 
-8.75 
-9.25 
-6.75 
-6.625 
-6.5 
-6.25 
-7.9375 
-7.625 
-7.375 
-5.25 
-2.875 
-7.4375 
-2.8125 
-7.25 
-7.125 
-7.5625 
-6.375 
-7.5 
-8.25 
-7.25 
-7.9375 
-8.25 
-5.375 
-3.8125 
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ awk '{$2=""; print $0}' final.txt >nw[K[Kfinalnew.[K[K[K[Kcgpa.t xt
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ paste -d '\t' finalcgpa.txt regcgpa[K[K[K[K[K[K[K[K classlist.txt >new f.txt
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ paste -d '\t' finalcgpa.txt classlist.txt >newff.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C classlist.txt >newf.[1Ptxt[A]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C classlist.txt >newf.t[1Pxt[A]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C classlist.txt >newf.tx[1Pt[A]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C classlist.txt >newf.txt[K[A]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C classlist.txt >newf.txt [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C >newf.txtf >newf.txti >newf.txtn >newf.txta >newf.txtl >newf.txtc >newf.txtg >newf.txt [A]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cp >newf.txtt[A]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca >newf.txt[A]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C. >newf.txt[A]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct >newf.txt[A]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cx >newf.txt[A]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct >newf.txt[A]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C >newf[1P.txt[A]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct >newf.txt[A]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
-[C[C[1P.txt[C[1P.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.t[1Pxt[A]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.tx[1Pt[A]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cn.txt[A]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce.txtw.txt[Cf.txt[C[Ci.txtn.txta.txtl.txt[C.txtt.txtx.txtt.txt[1P.txt[1P.txt[1P.txt[1Ptxt
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [K]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [K]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ exit
-exit
-There are stopped jobs.
-]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [K]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [K]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [K]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [K]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [K]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [K]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ [K]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32
