@@ -9,46 +9,61 @@ cs17d03@192.168.0.30's password:
 Connected to 192.168.0.30.
 sftp> put hello.txt
 Uploading hello.txt to /home/cs17d03/hello.txt
-hello.txt                                       0%    0     0.0KB/s   --:-- ETAhello.txt                                     100%   13     0.0KB/s   00:00    
+
+hello.txt                                       0%    0     0.0KB/s   --:-- ETA
+hello.txt                                     100%   13     0.0KB/s   00:00    
 sftp> cd
-You must specify a path after a cd command.
+You must specify a path after a cd command.
+
 sftp> cd Desktop
-Couldn't stat remote file: No such file or directory
+Couldn't stat remote file: No such file or directory
+
 sftp> ls
 examples.desktop    hello.txt           
 sftp> lcd Desktop
 sftp> get result.tt[Kxt
-File "/home/cs17d03/result.txt" not found.
+File "/home/cs17d03/result.txt" not found.
+
 sftp> get result.txt.txt[K.txt[K.txt[K.txt[K.txt[K.txt[Kh.txte.txtl.txtl.txto.txt
 Fetching /home/cs17d03/hello.txt to hello.txt
-/home/cs17d03/hello.txt                         0%    0     0.0KB/s   --:-- ETA/home/cs17d03/hello.txt                       100%   13     0.0KB/s   00:00    
+
+/home/cs17d03/hello.txt                         0%    0     0.0KB/s   --:-- ETA
+/home/cs17d03/hello.txt                       100%   13     0.0KB/s   00:00    
 sftp> mkdir new
 sftp> ls
 examples.desktop    hello.txt           new                 
 sftp> cd new
 sftp> get hello.txt
-File "/home/cs17d03/new/hello.txt" not found.
+File "/home/cs17d03/new/hello.txt" not found.
+
 sftp> cd[K[Kls
 sftp> cd..
-Invalid command.
+Invalid command.
+
 sftp> cd cs17d03
-Couldn't stat remote file: No such file or directory
+Couldn't stat remote file: No such file or directory
+
 sftp> cd
-You must specify a path after a cd command.
+You must specify a path after a cd command.
+
 sftp> ls
 sftp> cd..
-Invalid command.
+Invalid command.
+
 sftp> ls
 sftp> lls
 hello.txt
 sftp> cat hello.txt
-Invalid command.
+Invalid command.
+
 sftp> rm new
 Removing /home/cs17d03/new/new
-Couldn't delete file: No such file or directory
+Couldn't delete file: No such file or directory
+
 sftp> ls
 sftp> cd new
-Couldn't stat remote file: No such file or directory
+Couldn't stat remote file: No such file or directory
+
 sftp> help
 Available commands:
 bye                                Quit sftp
