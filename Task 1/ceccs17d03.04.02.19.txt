@@ -34,7 +34,7 @@ total 16
 -rw-r--r-- 1 s4d1 s4d1  8 Feb  4 22:12 b.txt
 -rw-r--r-- 1 s4d1 s4d1  0 Feb  4 22:08 ceccs17d03.04.02.19.txt
 -rw-r--r-- 1 s4d1 s4d1 28 Feb  4 22:11 new1.txt
--rw-r--r-- 1 s4d1 s4d1 10 Feb  4 22:08 new.txt
+-rw-r--r-- 1 s4d1 s4d1 10 Feb  4 22:08 new.txt 
 ]0;s4d1@ceclab2-H110M-S2: ~/Desktop[01;32ms4d1@ceclab2-H110M-S2[00m:[01;34m~/Desktop[00m$ ls -lt
 total 16
 -rw-r--r-- 1 s4d1 s4d1  8 Feb  4 22:12 b.txt
