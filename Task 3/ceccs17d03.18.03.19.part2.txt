@@ -27,7 +27,7 @@ lo        Link encap:Local Loopback
 [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cping 192.168.0.90[3Psudo ifconfig ping 192.168.0.90[K[K69
 PING 192.168.0.69 (192.168.0.69) 56(84) bytes of data.
 64 bytes from 192.168.0.69: icmp_seq=1 ttl=64 time=0.462 ms
-64 bytes from 192.168.0.69: icmp_seq=2 ttl=64 time=0.258 ms
+64 bytes from 192.168.0.69: icmp_seq=2 ttl=64 time=0.258 ms 
 64 bytes from 192.168.0.69: icmp_seq=3 ttl=64 time=0.281 ms
 64 bytes from 192.168.0.69: icmp_seq=4 ttl=64 time=0.270 ms
 64 bytes from 192.168.0.69: icmp_seq=5 ttl=64 time=0.264 ms
